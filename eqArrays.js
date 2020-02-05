@@ -9,12 +9,20 @@ const assertEqual = function(actual, expected) {
 //Create something using JSON to verify that both arrays equal each other
 //Create an assertequal that does the comparison 
 
-const eqArrays = function(arr1, arr2) {
-  if(JSON.stringify(arr1)===JSON.stringify(arr2)) {
-    return true; 
+const eqArrays2 = function(arr1, arr2) {
+  let total = 0;
+  for(let i = 0; i < arr1.length; i++) {
+    if (arr1[i] === arr2[i]) {
+      total+= 1;
+    }
+  }
+  if (total === arr1.length) {
+    console.log(`😎Assertion passed:`);
   } else {
-    return false;
+    console.log(`🛑Assertion Failed:`);
   }
 }
 
-assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true);
+eqArrays2([1, 2, 3, 4], [1, 2, 3, 4]);
+
+
