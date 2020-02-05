@@ -35,19 +35,18 @@ const assertArraysEqual = function(arr1, arr2) {
  */
 const middle = function(array) {
   let newarr = [];
-if(array.length > -1 && array.length < 3) {
-  console.log(newarr);
+  let middleOfArray = array.length/2;
+  let isEven = array.length % 2 === 0;
+  let lengthLessThanThree = array.length < 3;
+
+  if (isEven && !lengthLessThanThree) {
+    newarr.push(array[(middleOfArray - 1]);
+    newarr.push(array[middleOfArray);
+  } else if (!isEven && !lengthLessThanThree) {
+    newarr.push(array[middleOfArray -0.5]);
+  }
+
   return newarr;
-} else if (array.length % 2 == 0) {
-newarr.push(array[(array.length/2) - 1]);
-newarr.push(array[array.length/2])
-console.log(newarr);
-return newarr;
-} else if (array.length % 2 !== 0) {
-newarr.push(array[(array.length/2) -0.5])
-console.log(newarr);
-return newarr;
-}
 };
 
 //TEST CODE 
