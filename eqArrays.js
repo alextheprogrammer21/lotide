@@ -27,6 +27,6 @@ return false;
   }
 }
 
-assertEqual(eqArrays2([1,4,3], [1,2,3]), false);
+// assertEqual(eqArrays2([1,4,3], [1,2,3]), false);
 module.exports = eqArrays2; 
 
