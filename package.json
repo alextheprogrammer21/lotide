@@ -1,8 +1,8 @@
 {
-  "name": "lotide",
+  "name": "@alextheprogrammer21/lotide",
   "version": "1.0.0",
-  "description": "",
-  "main": "assertArraysEqual.js",
+  "description": "lotide project for lighthouse labs",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -13,7 +13,11 @@
     "type": "git",
     "url": "git+https://github.com/alextheprogrammer21/lotide.git"
   },
-  "author": "",
+  "author": {
+    "name" : "Alex Setia", 
+    "email" : "alextheprogrammer21@gmail.com",
+    "url" : "https://github.com/alextheprogrammer21/lotide"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/alextheprogrammer21/lotide/issues"
