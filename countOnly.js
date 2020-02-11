@@ -47,7 +47,4 @@ assertEqual(result1["Fang"], 2);
 
 
 
-
-object {
-
-}
+module.exports = countOnly;

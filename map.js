@@ -1,4 +1,4 @@
-Map = (array, cb) => {
+const map = (array, cb) => {
 
   let result = []; 
 
@@ -12,4 +12,7 @@ firstLetter = (words) => {return words[0]};
 
 const words = ["ground", "control", "to", "major", "tom"];
 
-console.log(Map(words, firstLetter)); 
+console.log(map(words, firstLetter)); 
+
+
+module.exports = map;

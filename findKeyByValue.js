@@ -22,3 +22,5 @@ findKeybyValue = (objects, value) => {
 }
 
 findKeybyValue(bestTVShowsByGenre, "The Wire");
+
+module.exports = findKeybyValue;

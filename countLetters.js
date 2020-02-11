@@ -24,4 +24,6 @@ countLetters = (words) => {
 }
 
 console.log(countLetters("Lighthouse Labs"));
+
+module.exports = countLetters;
  

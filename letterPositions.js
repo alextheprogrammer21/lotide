@@ -25,3 +25,5 @@ letterPositions = (sentence) => {
 console.log(letterPositions("lighthouse labs"));
 
 assertArraysEqual(letterPositions("lighthouse in the house")["l"], [0]);
+
+module.exports = letterPositions;

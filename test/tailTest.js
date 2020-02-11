@@ -10,6 +10,4 @@ describe("#Tail", () => {
     assert.deepEqual(tail([0, 3]), [3]);
   });
 
-
-
 });

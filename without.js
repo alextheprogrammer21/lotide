@@ -39,3 +39,5 @@ newarr.push(currentChar);
 //   }
 
 without([1,2,1], [1,2,3]);
+
+module.exports = without;

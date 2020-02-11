@@ -19,3 +19,5 @@ object = {
 };
 
 console.log(findkey(object, x => x === 2));
+
+module.exports = findkey;

@@ -17,3 +17,5 @@ const results1 = takeUntil(data1, x => {
 return  x < 0
 });
 console.log(results1);
+
+module.exports = takeUntil;
